@@ -5,7 +5,6 @@ title:
 - en:
   - The Arrival Chapter 2 by Shaun Tan
 user: annonatatencsu
-
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
@@ -83,13 +82,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-1-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-1"
-        }
       ]
     },
     {
@@ -134,13 +126,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-2-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
         }
       ]
     },
@@ -187,13 +172,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-3-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-3"
-        }
       ]
     },
     {
@@ -238,13 +216,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-4"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-4-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-4"
         }
       ]
     },
@@ -291,13 +262,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-5-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5"
-        }
       ]
     },
     {
@@ -342,13 +306,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-6"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-6-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-6"
         }
       ]
     },
@@ -395,13 +352,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-7-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-7"
-        }
       ]
     },
     {
@@ -446,13 +396,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-8-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
         }
       ]
     },
@@ -499,13 +442,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-9-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9"
-        }
       ]
     },
     {
@@ -550,13 +486,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-10-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10"
         }
       ]
     },
@@ -603,13 +532,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-11-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11"
-        }
       ]
     },
     {
@@ -654,13 +576,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-12-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
         }
       ]
     },
@@ -707,13 +622,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-13-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13"
-        }
       ]
     },
     {
@@ -758,13 +666,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-14-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14"
         }
       ]
     },
@@ -811,13 +712,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-15-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15"
-        }
       ]
     },
     {
@@ -862,13 +756,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-16-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
         }
       ]
     },
@@ -915,13 +802,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-17-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
-        }
       ]
     },
     {
@@ -966,13 +846,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-18"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-18-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-18"
         }
       ]
     },
@@ -1019,13 +892,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-19-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-19"
-        }
       ]
     },
     {
@@ -1070,13 +936,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-20"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-20-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-20"
         }
       ]
     },
@@ -1123,13 +982,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-21-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-21"
-        }
       ]
     },
     {
@@ -1174,13 +1026,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-22"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-22-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-22"
         }
       ]
     },
@@ -1227,13 +1072,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-23-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-23"
-        }
       ]
     },
     {
@@ -1278,13 +1116,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-24"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-24-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-24"
         }
       ]
     },
@@ -1331,13 +1162,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-25-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-25"
-        }
       ]
     },
     {
@@ -1382,13 +1206,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-26"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-26-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-26"
         }
       ]
     },
@@ -1435,13 +1252,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-27-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-27"
-        }
       ]
     },
     {
@@ -1486,13 +1296,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-28-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28"
         }
       ]
     },
@@ -1539,13 +1342,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-29-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-29"
-        }
       ]
     },
     {
@@ -1590,13 +1386,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-30"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-30-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-30"
         }
       ]
     },
@@ -1643,13 +1432,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-31-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-31"
-        }
       ]
     },
     {
@@ -1694,13 +1476,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-32-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
         }
       ]
     },
@@ -1747,13 +1522,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-33-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33"
-        }
       ]
     },
     {
@@ -1798,13 +1566,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-34"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-34-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-34"
         }
       ]
     },
@@ -1851,13 +1612,6 @@ user: annonatatencsu
             }
           ]
         }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-35-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-35"
-        }
       ]
     },
     {
@@ -1902,13 +1656,6 @@ user: annonatatencsu
               "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-36"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://dnoneill.github.io/thearrival/annotations/chapter2-chapter2-36-list.json",
-          "type": "Annotation",
-          "target": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-36"
         }
       ]
     }
