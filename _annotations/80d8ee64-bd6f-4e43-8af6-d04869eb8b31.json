@@ -4,13 +4,14 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2023-11-09T16:03:03.196Z",
+            "creator": {
+                "id": "Clara",
+                "name": "Clara"
+            },
             "geometry": {
-                "type": "MultiPolygon",
                 "coordinates": [
                     [
                         [
@@ -2568,31 +2569,29 @@ order: 2
                             ]
                         ]
                     ]
-                ]
+                ],
+                "type": "MultiPolygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/relation/175905",
-            "creator": {
-                "id": "Clara",
-                "name": "Clara"
-            },
-            "created": "2023-11-09T16:03:03.196Z"
+            "type": "Feature"
         }
     ],
+    "id": "80d8ee64-bd6f-4e43-8af6-d04869eb8b31.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "value": "<svg><polygon points=\"1468.8583984375,2802.519775390625 2154.7169189453125,2802.519775390625 2840.575439453125,2802.519775390625 2840.575439453125,3049.5494384765625 2840.575439453125,3296.5791015625 2154.7169189453125,3296.5791015625 1468.8583984375,3296.5791015625 1468.8583984375,3049.5494384765625\"></polygon></svg>",
+            "type": "SvgSelector"
+        },
         "source": {
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1468.8583984375,2802.519775390625,1371.717041015625,494.059326171875"
         }
     },
-    "id": "80d8ee64-bd6f-4e43-8af6-d04869eb8b31.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
