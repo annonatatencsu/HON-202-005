@@ -2581,15 +2581,15 @@ order: 2
     "motivation": "commenting",
     "target": {
         "selector": {
-            "value": "<svg><polygon points=\"1468.8583984375,2802.519775390625 2154.7169189453125,2802.519775390625 2840.575439453125,2802.519775390625 2840.575439453125,3049.5494384765625 2840.575439453125,3296.5791015625 2154.7169189453125,3296.5791015625 1468.8583984375,3296.5791015625 1468.8583984375,3049.5494384765625\"></polygon></svg>",
-            "type": "SvgSelector"
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1468.8583984375,2802.519775390625 2154.7169189453125,2802.519775390625 2840.575439453125,2802.519775390625 2840.575439453125,3049.5494384765625 2840.575439453125,3296.5791015625 2154.7169189453125,3296.5791015625 1468.8583984375,3296.5791015625 1468.8583984375,3049.5494384765625\"></polygon></svg>"
         },
         "source": {
-            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
                 "type": "Manifest"
             },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
         }
     },
