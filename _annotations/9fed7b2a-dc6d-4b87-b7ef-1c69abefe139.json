@@ -1,0 +1,40 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This looks like a butterfly",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Hannah",
+                "name": "Hannah"
+            },
+            "created": "2023-11-09T15:48:49.553Z",
+            "modified": "2023-11-09T15:48:54.424Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2944.709716796875,5195.85791015625 3197.793701171875,5824.20458984375 3589.702068262554,5666.352667872048 3336.618083887554,5038.005988184548\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9fed7b2a-dc6d-4b87-b7ef-1c69abefe139.json",
+    "motivation": "commenting"
+}
