@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-3"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Possible caption: \"The ship made its way through the mysterious vastness of the ocean\". In my opinion, adding a caption takes away from the hostile and foreboding atmosphere and makes the reader pay less attention to the details at hand. I believe no caption is needed in emphasizing to the reader the literal and metaphorical smallness of the ship and its passengers. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "samantha",
+                "name": "samantha"
+            },
+            "created": "2023-11-09T15:52:24.169Z",
+            "modified": "2023-11-09T15:58:08.478Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-3",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"6475.595458984375\" cy=\"4795.7783203125\" rx=\"1358.604248046875\" ry=\"1125.154296875\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "852f7374-04f3-4d37-9e13-f01872308132.json",
+    "motivation": "commenting"
+}
