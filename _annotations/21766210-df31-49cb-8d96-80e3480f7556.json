@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Changes the perpective of the man and his room into scale to illustrate insignificance",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Jason Lovett",
+                "name": "Jason Lovett"
+            },
+            "created": "2023-11-09T16:01:13.322Z",
+            "modified": "2023-11-09T16:01:44.709Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=-46.13215255737305,2543.32080078125,4636.132152557373,3141.37353515625"
+        }
+    },
+    "id": "21766210-df31-49cb-8d96-80e3480f7556.json",
+    "motivation": "commenting"
+}
