@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ellis Island",
-            "purpose": "commenting",
+            "created": "2023-11-09T15:57:16.498Z",
             "creator": {
                 "id": "Mundorf!!!",
                 "name": "Mundorf!!!"
             },
-            "created": "2023-11-09T15:57:16.498Z",
-            "modified": "2023-11-09T15:57:23.856Z"
+            "modified": "2023-11-09T15:57:23.856Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ellis Island"
         }
     ],
+    "id": "f343e932-2177-4541-a32e-c2d9a369aa84.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1139.228759765625,5679.134765625,3075.806396484375,583.431884765625"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1139.228759765625,5679.134765625,3075.806396484375,583.431884765625"
         }
     },
-    "id": "f343e932-2177-4541-a32e-c2d9a369aa84.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
