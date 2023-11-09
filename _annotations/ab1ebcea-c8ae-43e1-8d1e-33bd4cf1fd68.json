@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Bruh\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Lam Nguyen",
+                "name": "Lam Nguyen"
+            },
+            "created": "2023-11-09T15:54:53.382Z",
+            "modified": "2023-11-09T15:54:54.966Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"4165.910888671875\" cy=\"4108.4805908203125\" r=\"458.3471780893944\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ab1ebcea-c8ae-43e1-8d1e-33bd4cf1fd68.json",
+    "motivation": "commenting"
+}
