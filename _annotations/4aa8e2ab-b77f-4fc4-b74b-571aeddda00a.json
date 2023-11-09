@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "AYYYYYAAA!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Aryan Goyal",
+                "name": "Aryan Goyal"
+            },
+            "created": "2023-11-09T16:02:10.596Z",
+            "modified": "2023-11-09T16:02:12.198Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=181.8318634033203,3636.1513671875,270.21080017089844,231.818359375"
+        }
+    },
+    "id": "4aa8e2ab-b77f-4fc4-b74b-571aeddda00a.json",
+    "motivation": "commenting"
+}
