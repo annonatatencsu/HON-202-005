@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Flying fish?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "shey",
+                "name": "shey"
+            },
+            "created": "2023-11-09T15:57:04.763Z",
+            "modified": "2023-11-09T15:57:12.303Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3341.00439453125,5495.4423828125,1156.93505859375,660.0458984375"
+        }
+    },
+    "id": "d083da15-81af-493a-8fc4-ddadde248737.json",
+    "motivation": "commenting"
+}
