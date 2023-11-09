@@ -1,0 +1,40 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I imagine the sound of this page would be the noise of a crowd, with everyone talking over each other and the man in the top center panel trying to organize the chaos",
+            "purpose": "commenting",
+            "creator": {
+                "id": "wmmuelle",
+                "name": "wmmuelle"
+            },
+            "created": "2023-11-09T15:56:22.909Z",
+            "modified": "2023-11-09T15:58:43.849Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"853.0233154296875,3502.520751953125 853.0233154296875,3502.520751953125 853.0233154296875,3502.520751953125 853.0233154296875,3502.520751953125\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "75fa5fdb-b44d-4d72-ac99-72165f440b5b.json",
+    "motivation": "commenting"
+}
