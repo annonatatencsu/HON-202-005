@@ -4,13 +4,14 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2023-11-09T15:59:17.374Z",
+            "creator": {
+                "id": "Kylie",
+                "name": "Kylie"
+            },
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -46,17 +47,33 @@ order: 1
                             40.748491
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/way/34633854",
+            "type": "Feature"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Empire State Building",
+            "purpose": "commenting",
             "creator": {
                 "id": "Kylie",
                 "name": "Kylie"
             },
-            "created": "2023-11-09T15:59:17.374Z"
+            "created": "2023-11-09T15:59:30.863Z",
+            "modified": "2023-11-09T15:59:37.214Z"
         }
     ],
+    "id": "49eedb3c-21ea-4e40-b240-d98032b9b9a1.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=844.2949829101562,742.4459228515625,552.7742309570312,1370.4195556640625"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -64,13 +81,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=844.2949829101562,742.4459228515625,552.7742309570312,1370.4195556640625"
         }
     },
-    "id": "49eedb3c-21ea-4e40-b240-d98032b9b9a1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
