@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "New York City, 1905",
-            "purpose": "commenting",
+            "created": "2023-11-09T15:53:10.807Z",
             "creator": {
                 "id": "Aryan Goyal",
                 "name": "Aryan Goyal"
             },
-            "created": "2023-11-09T15:53:10.807Z",
-            "modified": "2023-11-09T15:53:15.363Z"
+            "modified": "2023-11-09T15:53:15.363Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "New York City, 1905"
         }
     ],
+    "id": "613ce44a-ddb5-4cd9-953e-c242afec4a1e.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1873.5628662109375,156.3095703125,2466.9571533203125,422.63397216796875"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1873.5628662109375,156.3095703125,2466.9571533203125,422.63397216796875"
         }
     },
-    "id": "613ce44a-ddb5-4cd9-953e-c242afec4a1e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
