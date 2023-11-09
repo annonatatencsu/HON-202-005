@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<img src=\"https://2.bp.blogspot.com/-mHvComViilo/T9QjOFy-qlI/AAAAAAAAAjA/WYjZ6QzGBJ4/s1600/real+titanic+pictures.jpg\"/>",
+            "purpose": "commenting",
+            "creator": {
+                "id": "samantha",
+                "name": "samantha"
+            },
+            "created": "2023-11-09T16:01:40.514Z",
+            "modified": "2023-11-09T16:02:35.963Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"5908.389892578125\" cy=\"5166.370849609375\" rx=\"1525.856201171875\" ry=\"743.949951171875\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "42fbc7ac-6166-427e-a547-30c217c35e01.json",
+    "motivation": "commenting"
+}
