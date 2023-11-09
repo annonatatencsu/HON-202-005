@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Could this be symbolizing the connection made? Perhaps suggesting that unity was made among the 2 groups? Or could this symbolize something else? ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "shey",
+                "name": "shey"
+            },
+            "created": "2023-11-09T15:58:28.122Z",
+            "modified": "2023-11-09T15:59:11.618Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2400.0693359375,95.77898406982422,1967.15087890625,773.5987014770508"
+        }
+    },
+    "id": "86c15f74-fa8c-4201-9ef3-cb16ca54b611.json",
+    "motivation": "commenting"
+}
