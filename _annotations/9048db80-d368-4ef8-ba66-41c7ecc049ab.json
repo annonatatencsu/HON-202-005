@@ -3,21 +3,27 @@ canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/can
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "https://media.tenor.com/NGtqh1V1DfQAAAAd/good-soup-good-soup-meme.gif",
-            "purpose": "commenting",
+            "created": "2023-11-09T16:01:07.033Z",
             "creator": {
                 "id": "Taylor",
                 "name": "Taylor"
             },
-            "created": "2023-11-09T16:01:07.033Z",
-            "modified": "2023-11-09T16:01:21.420Z"
+            "modified": "2023-11-09T16:02:27.971Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Good soup\"\n\nhttps://media.tenor.com/NGtqh1V1DfQAAAAd/good-soup-good-soup-meme.gif"
         }
     ],
+    "id": "9048db80-d368-4ef8-ba66-41c7ecc049ab.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2044.733154296875\" cy=\"1967.5358276367188\" rx=\"495.56494140625\" ry=\"366.95391845703125\"></ellipse></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -25,13 +31,7 @@ order: 2
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><ellipse cx=\"2044.733154296875\" cy=\"1967.5358276367188\" rx=\"495.56494140625\" ry=\"366.95391845703125\"></ellipse></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9048db80-d368-4ef8-ba66-41c7ecc049ab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
