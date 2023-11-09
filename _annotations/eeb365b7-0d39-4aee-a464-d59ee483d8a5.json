@@ -4,20 +4,21 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "This ooks like a butterfly",
-            "purpose": "commenting",
+            "created": "2023-11-09T15:49:29.027Z",
             "creator": {
                 "id": "Mundorf!!!",
                 "name": "Mundorf!!!"
             },
-            "created": "2023-11-09T15:49:29.027Z",
-            "modified": "2023-11-09T15:49:33.662Z"
+            "modified": "2023-11-09T15:49:33.662Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "This ooks like a butterfly"
         }
     ],
+    "id": "eeb365b7-0d39-4aee-a464-d59ee483d8a5.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -29,9 +30,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"0,1480.3365478515625 -1676.1318359375,1199.437744140625 -1238.1636962890625,3107.689697265625\"></polygon></svg>"
+            "value": "<svg><polygon points=\"4112,4781.3 1611.8,2031.9 1165,2556\"></polygon></svg>"
         }
     },
-    "id": "eeb365b7-0d39-4aee-a464-d59ee483d8a5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
