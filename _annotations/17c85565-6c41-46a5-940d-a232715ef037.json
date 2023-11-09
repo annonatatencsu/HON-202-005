@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "language barrier?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "shey",
+                "name": "shey"
+            },
+            "created": "2023-11-09T16:03:11.699Z",
+            "modified": "2023-11-09T16:03:14.374Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1847.3172607421875,3537.33056640625,1181.5562744140625,359.6044921875"
+        }
+    },
+    "id": "17c85565-6c41-46a5-940d-a232715ef037.json",
+    "motivation": "commenting"
+}
