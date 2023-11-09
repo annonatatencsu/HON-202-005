@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Though there are no words in these progressive slides, the feeling of hostility and frustration is very clearly encapsulated by the author. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "samantha",
+                "name": "samantha"
+            },
+            "created": "2023-11-09T16:05:08.259Z",
+            "modified": "2023-11-09T16:07:12.990Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"6408.1982421875\" cy=\"3105.332275390625\" rx=\"1179.46240234375\" ry=\"1021.944580078125\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "df35cba5-645b-4351-8fcc-1c793dc5fc4c.json",
+    "motivation": "commenting"
+}
