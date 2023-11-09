@@ -4,13 +4,14 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2023-11-09T15:53:31.488Z",
+            "creator": {
+                "id": "Lam Nguyen",
+                "name": "Lam Nguyen"
+            },
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -82,17 +83,22 @@ order: 1
                             22.2976036
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
+            "purpose": "geotagging",
             "source": "https://www.openstreetmap.org/relation/10264792",
-            "creator": {
-                "id": "Lam Nguyen",
-                "name": "Lam Nguyen"
-            },
-            "created": "2023-11-09T15:53:31.488Z"
+            "type": "Feature"
         }
     ],
+    "id": "4e560a70-2c9e-4430-b8f3-af91c1d6508d.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=39.15169906616211,508.9450988769531,4572.553379058838,3172.954559326172"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -100,13 +106,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=39.15169906616211,508.9450988769531,4572.553379058838,3172.954559326172"
         }
     },
-    "id": "4e560a70-2c9e-4430-b8f3-af91c1d6508d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
