@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The emotions on his face tell the whole story on this entire page- you can tell he is feeling frustrated, stressed, and scared all at once",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Christina",
+                "name": "Christina"
+            },
+            "created": "2023-11-09T16:02:49.437Z",
+            "modified": "2023-11-09T16:03:23.412Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=89.72493743896484,3474.705078125,4546.899574279785,3196.728515625"
+        }
+    },
+    "id": "38c854ba-d7e4-4f42-a14f-335191175d95.json",
+    "motivation": "commenting"
+}
