@@ -11,10 +11,10 @@ order: 2
                 "id": "Taylor",
                 "name": "Taylor"
             },
-            "modified": "2023-11-09T16:02:27.971Z",
+            "modified": "2023-11-09T16:03:55.917Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\"Good soup\"\n\nhttps://media.tenor.com/NGtqh1V1DfQAAAAd/good-soup-good-soup-meme.gif"
+            "value": "\"Good soup\"\n\n<img src=\"https://media.tenor.com/NGtqh1V1DfQAAAAd/good-soup-good-soup-meme.gif\"/>"
         }
     ],
     "id": "9048db80-d368-4ef8-ba66-41c7ecc049ab.json",
