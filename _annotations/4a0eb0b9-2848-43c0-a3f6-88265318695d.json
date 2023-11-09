@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The sound this panel conjures is that of a busy crowd with the man in the top pnel yelling over everyone",
+            "purpose": "commenting",
+            "creator": {
+                "id": "wmmuelle",
+                "name": "wmmuelle"
+            },
+            "created": "2023-11-09T16:00:39.894Z",
+            "modified": "2023-11-09T16:00:58.120Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"0,3558.300048828125 44.57001495361328,6563.49072265625 4672.49609375,6540.01220703125 4664.03515625,3460.36865234375 3090.371337890625,3375.76318359375 1601.3128662109375,3274.236328125 1618.2340087890625,2538.167724609375 1652.0762939453125,1615.966796875 3098.831787109375,1514.4400634765625 3093.755859375,108.29544067382812 1663.9212646484375,116.7560043334961 1604.6973876953125,1487.3665771484375 1469.328369140625,3264.083984375 572.5090942382812,3467.137451171875 31.0333251953125,3484.05859375 5.651647567749023,3500.979736328125\"></polygon></svg>"
+        }
+    },
+    "id": "4a0eb0b9-2848-43c0-a3f6-88265318695d.json",
+    "motivation": "commenting"
+}
