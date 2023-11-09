@@ -20,10 +20,6 @@ order: 1
     "id": "852f7374-04f3-4d37-9e13-f01872308132.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><ellipse cx=\"6475.595458984375\" cy=\"4795.7783203125\" rx=\"1358.604248046875\" ry=\"1125.154296875\"></ellipse></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -31,6 +27,10 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-3",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"3276.395751953125\" cy=\"4600.5986328125\" rx=\"1358.604248046875\" ry=\"1125.154296875\"></ellipse></svg>"
         }
     },
     "type": "Annotation"
