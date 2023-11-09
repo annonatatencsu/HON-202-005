@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "https://www.granger.com/results.asp?inline=true&image=0016284&wwwflag=4&itemx=33",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Lam Nguyen",
+                "name": "Lam Nguyen"
+            },
+            "created": "2023-11-09T16:02:04.380Z",
+            "modified": "2023-11-09T16:02:07.224Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=253.8629150390625,389.6611022949219,3753.4700927734375,1988.0666809082031"
+        }
+    },
+    "id": "4418c3a8-1c74-445f-b645-32f99c1f7397.json",
+    "motivation": "commenting"
+}
