@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Reminds me of the statue of liberty.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "wmmuelle",
+                "name": "wmmuelle"
+            },
+            "created": "2023-11-09T15:51:54.656Z",
+            "modified": "2023-11-09T15:52:05.730Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"834.8722534179688,398.2716369628906 14.165721893310547,3084.2197265625 4051.566162109375,3247.21630859375 3703.952880859375,406.96185302734375 2079.49658203125,281.4819030761719 1430.0538330078125,318.7867736816406\"></polygon></svg>"
+        }
+    },
+    "id": "116f0b5b-ec7c-4ae9-ac9f-9c635fd6a8ac.json",
+    "motivation": "commenting"
+}
