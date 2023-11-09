@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The immigrants on the boat look cold, nervous, and unsure of what awaits for them. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Clara",
+                "name": "Clara"
+            },
+            "created": "2023-11-09T15:59:26.129Z",
+            "modified": "2023-11-09T16:00:12.903Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1610.7030029296875,3934.01953125,2727.8804931640625,1045.8505859375"
+        }
+    },
+    "id": "7d8dd1c1-ed3f-4997-9fb9-d482b73da50b.json",
+    "motivation": "commenting"
+}
