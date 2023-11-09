@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Its so cold. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "shey",
+                "name": "shey"
+            },
+            "created": "2023-11-09T15:56:16.607Z",
+            "modified": "2023-11-09T15:56:23.301Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2005.29833984375,4053.0390625,386.39013671875,167.33447265625"
+        }
+    },
+    "id": "edb6cc42-fa79-419c-9e4e-9b5e59f0504a.json",
+    "motivation": "commenting"
+}
