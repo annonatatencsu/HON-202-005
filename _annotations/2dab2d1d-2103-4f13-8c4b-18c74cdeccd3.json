@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-26"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hot Comb.\n\nIts interesting that when Making this general representation of what is happening in this city that one of those events is a barber. When considering 4 main things going on on the streets of a large city, I would imagine people playing music, people wandering around with a suitcase, and people waiting, but the decision to include a barber sticks out to me.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Mundorf!!!",
+                "name": "Mundorf!!!"
+            },
+            "created": "2023-11-09T15:58:26.736Z",
+            "modified": "2023-11-09T16:01:37.024Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-26",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=365.56646728515625,1901.035888671875,1477.5807495117188,1003.9404296875"
+        }
+    },
+    "id": "2dab2d1d-2103-4f13-8c4b-18c74cdeccd3.json",
+    "motivation": "commenting"
+}
