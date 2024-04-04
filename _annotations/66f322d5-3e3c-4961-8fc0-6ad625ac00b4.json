@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "THE TITANIC. FIRST VOYAGE.",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Laura",
+                "name": "Laura"
+            },
+            "created": "2024-04-04T18:03:10.163Z",
+            "modified": "2024-04-04T18:03:17.045Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3415.1142578125,4328.22900390625,1069.71435546875,380.57080078125"
+        }
+    },
+    "id": "66f322d5-3e3c-4961-8fc0-6ad625ac00b4.json",
+    "motivation": "commenting"
+}
