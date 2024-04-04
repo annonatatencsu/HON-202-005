@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-19"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Wow this is really high...",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Nina Somerville",
+                "name": "Nina Somerville"
+            },
+            "created": "2024-04-04T18:21:53.440Z",
+            "modified": "2024-04-04T18:22:00.125Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-19",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2188.8765258789062\" cy=\"5481.40380859375\" rx=\"196.59075927734375\" ry=\"121.61669921875\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "118e7ed0-5a9f-496b-a231-5bc19390bda5.json",
+    "motivation": "commenting"
+}
