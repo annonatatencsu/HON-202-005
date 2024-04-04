@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-18"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "In my experience in volunteering for an immigration law organization it was easy to disconnect from the fact that every file was a person or a family which I think is very important to remember. This image reminds me of that feeling with the sheer volume of people's files that the hands are digging through.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Marcel",
+                "name": "Marcel"
+            },
+            "created": "2024-04-04T18:17:42.499Z",
+            "modified": "2024-04-04T18:19:40.241Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-18",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=0,133.1857452392578,1416.9359130859375,1426.1113739013672"
+        }
+    },
+    "id": "464b9411-4117-4ea1-88f5-44ff2f11ed7c.json",
+    "motivation": "commenting"
+}
