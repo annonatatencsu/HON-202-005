@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "my favorite character",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Eliza DM.",
+                "name": "Eliza DM."
+            },
+            "created": "2024-04-04T18:34:19.347Z",
+            "modified": "2024-04-04T18:34:25.107Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3916.72998046875,4062.0869140625,727.27001953125,496.318359375"
+        }
+    },
+    "id": "e069c629-5074-4743-b51d-0ec9156eeec9.json",
+    "motivation": "commenting"
+}
