@@ -1,0 +1,54 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.6494791,
+                    36.5779275
+                ]
+            },
+            "source": "https://www.openstreetmap.org/node/7787829516",
+            "creator": {
+                "id": "Matthew",
+                "name": "Matthew"
+            },
+            "created": "2024-04-04T18:12:49.083Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "This reminded me of train stations; Kanazawa Station was the most similar looking train station I found.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Matthew",
+                "name": "Matthew"
+            },
+            "created": "2024-04-04T18:13:15.595Z",
+            "modified": "2024-04-04T18:13:53.888Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2405.2194213867188\" cy=\"3089.0362548828125\" rx=\"577.7214965820312\" ry=\"535.1524658203125\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "949fa67b-c6ec-432c-b6ea-d7b16d9cf061.json",
+    "motivation": "commenting"
+}
