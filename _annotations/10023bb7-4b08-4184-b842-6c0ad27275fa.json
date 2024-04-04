@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The officers began their physical inspection as they prodded and poked every single immigrant fresh off the boat for any physical deficiencies. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Asmita",
+                "name": "Asmita"
+            },
+            "created": "2024-04-04T18:15:59.403Z",
+            "modified": "2024-04-04T18:20:58.343Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3356.755126953125,1512.3001708984375,1271.244873046875,268.3114013671875"
+        }
+    },
+    "id": "10023bb7-4b08-4184-b842-6c0ad27275fa.json",
+    "motivation": "commenting"
+}
