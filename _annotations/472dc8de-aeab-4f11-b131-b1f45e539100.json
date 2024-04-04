@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"I wonder what this new life might be like.\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Lauren Milligan",
+                "name": "Lauren Milligan"
+            },
+            "created": "2024-04-04T18:04:29.689Z",
+            "modified": "2024-04-04T18:06:01.127Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"0,2826.987548828125 -1352.532958984375,3210.307861328125 -1855.640869140625,3797.267333984375 899.47412109375,4024.86376953125 1043.21923828125,2228.049560546875 -1663.980712890625,2084.304443359375 -1687.938232421875,3294.1591796875\"></polygon></svg>"
+        }
+    },
+    "id": "472dc8de-aeab-4f11-b131-b1f45e539100.json",
+    "motivation": "commenting"
+}
