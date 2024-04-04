@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I wonder what these shapes mean? Some sort of medical classification?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Lauren Milligan",
+                "name": "Lauren Milligan"
+            },
+            "created": "2024-04-04T18:13:26.623Z",
+            "modified": "2024-04-04T18:13:49.912Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"620.8582973480225\" cy=\"923.2787322998047\" rx=\"643.3167514801025\" ry=\"530.1407012939453\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "daa9be23-d5e7-47c8-a01c-94ccc095e898.json",
+    "motivation": "commenting"
+}
