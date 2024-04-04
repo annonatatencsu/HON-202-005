@@ -1,0 +1,55 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This scene reminded me of train stations. Kanazawa Station was the most similar looking station I found",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Matthew",
+                "name": "Matthew"
+            },
+            "created": "2024-04-04T18:15:44.813Z",
+            "modified": "2024-04-04T18:16:04.560Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    136.6494791,
+                    36.5779275
+                ]
+            },
+            "source": "https://www.openstreetmap.org/node/7787829516",
+            "creator": {
+                "id": "Matthew",
+                "name": "Matthew"
+            },
+            "created": "2024-04-04T18:16:12.170Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=191.6339874267578,2334.451171875,1045.9801483154297,271.63037109375"
+        }
+    },
+    "id": "26baae34-fecc-4748-85cd-ae14e20573c0.json",
+    "motivation": "commenting"
+}
