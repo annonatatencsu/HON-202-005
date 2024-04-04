@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-27"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Even the clocks seem to be different and the main character's timepiece is probably not adjusted to the correct time zone only increasing his confusion.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Marcel",
+                "name": "Marcel"
+            },
+            "created": "2024-04-04T18:25:50.928Z",
+            "modified": "2024-04-04T18:26:59.060Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-27",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=137.22666931152344,107.09710693359375,4485.773330688477,1365.9932250976562"
+        }
+    },
+    "id": "fa201e1d-1c20-4d10-98d3-b34d115bb033.json",
+    "motivation": "commenting"
+}
