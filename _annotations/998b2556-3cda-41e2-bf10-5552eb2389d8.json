@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Very simmilar the the \"Great Hall\" on Ellis Island\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Anna Carroll",
+                "name": "Anna Carroll"
+            },
+            "created": "2024-04-04T18:08:59.092Z",
+            "modified": "2024-04-04T18:10:05.846Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=635.7095947265625,991.3353881835938,971.816650390625,547.8297729492188"
+        }
+    },
+    "id": "998b2556-3cda-41e2-bf10-5552eb2389d8.json",
+    "motivation": "commenting"
+}
