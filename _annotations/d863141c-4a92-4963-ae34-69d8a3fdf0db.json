@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "(Thought Bubble)\"Fly to where you belong\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "David",
+                "name": "David"
+            },
+            "created": "2024-04-04T18:15:10.410Z",
+            "modified": "2024-04-04T18:15:50.621Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=109.1037368774414,4879.77685546875,1399.3808822631836,288.904296875"
+        }
+    },
+    "id": "d863141c-4a92-4963-ae34-69d8a3fdf0db.json",
+    "motivation": "commenting"
+}
