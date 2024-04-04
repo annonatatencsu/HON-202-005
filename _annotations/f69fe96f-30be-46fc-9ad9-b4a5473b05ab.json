@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "the struggles of not being used to speaking the dominate language ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Jessica",
+                "name": "Jessica"
+            },
+            "created": "2024-04-04T18:05:49.954Z",
+            "modified": "2024-04-04T18:06:07.472Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1698.4461669921875,3234.156005859375,1290.7984619140625,185.764892578125"
+        }
+    },
+    "id": "f69fe96f-30be-46fc-9ad9-b4a5473b05ab.json",
+    "motivation": "commenting"
+}
