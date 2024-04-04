@@ -4,37 +4,43 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Reminds me of Ellis Island in New York",
-            "purpose": "commenting",
+            "created": "2024-04-04T18:03:44.154Z",
             "creator": {
                 "id": "kgperry2",
                 "name": "kgperry2"
             },
-            "created": "2024-04-04T18:03:44.154Z",
-            "modified": "2024-04-04T18:03:51.854Z"
+            "modified": "2024-04-04T18:03:51.854Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Reminds me of Ellis Island in New York"
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2024-04-04T18:05:03.417Z",
+            "creator": {
+                "id": "kgperry2",
+                "name": "kgperry2"
+            },
             "geometry": {
-                "type": "Point",
                 "coordinates": [
                     -74.0416588788503,
                     40.69880219706158
-                ]
+                ],
+                "type": "Point"
             },
-            "creator": {
-                "id": "kgperry2",
-                "name": "kgperry2"
-            },
-            "created": "2024-04-04T18:05:03.417Z"
+            "purpose": "geotagging",
+            "type": "Feature"
         }
     ],
+    "id": "edb8dfe4-1c7d-4289-8d14-4edf4250bb3b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2747.8310546875,391.4833984375,1609.57958984375,834.5966796875"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -42,13 +48,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2747.8310546875,391.4833984375,1609.57958984375,834.5966796875"
         }
     },
-    "id": "edb8dfe4-1c7d-4289-8d14-4edf4250bb3b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
