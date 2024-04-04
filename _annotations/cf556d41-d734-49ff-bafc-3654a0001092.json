@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Hello friend?\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "David",
+                "name": "David"
+            },
+            "created": "2024-04-04T18:22:18.999Z",
+            "modified": "2024-04-04T18:22:25.323Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2029.718505859375,3561.3349609375,1281.541015625,310.267822265625"
+        }
+    },
+    "id": "cf556d41-d734-49ff-bafc-3654a0001092.json",
+    "motivation": "commenting"
+}
