@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Reminds me of the aesthetic/culture of 1927 Metropolis! https://static.wixstatic.com/media/92b4bb_1e10fdd543be4307b6ca70961ccaddf9~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/92b4bb_1e10fdd543be4307b6ca70961ccaddf9~mv2.jpg",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Emma",
+                "name": "Emma"
+            },
+            "created": "2024-04-04T18:16:34.324Z",
+            "modified": "2024-04-04T18:16:55.845Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3032.27392578125,785.6126098632812,516.259765625,276.83465576171875"
+        }
+    },
+    "id": "0c3c7423-dba1-441e-8961-af2d2f320c2a.json",
+    "motivation": "commenting"
+}
