@@ -1,0 +1,53 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What are you ?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Jymon",
+                "name": "Jymon"
+            },
+            "created": "2024-04-04T18:12:09.190Z",
+            "modified": "2024-04-04T18:12:18.256Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "Jymon",
+                "name": "Jymon"
+            },
+            "created": "2024-04-04T18:12:39.993Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"629.6337585449219\" cy=\"4167.859375\" rx=\"211.54598999023438\" ry=\"292.90966796875\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c4d5d294-030e-41d8-83c8-0b937524a3a0.json",
+    "motivation": "commenting"
+}
