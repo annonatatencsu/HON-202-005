@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Give me your tired, your poor, your huddled masses yearning to breathe free..\" - Emma Lazarus",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Setayesh N.",
+                "name": "Setayesh N."
+            },
+            "created": "2024-04-04T18:04:53.362Z",
+            "modified": "2024-04-04T18:05:39.195Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=238.99082946777344,314.0580139160156,2343.9212799072266,442.9149475097656"
+        }
+    },
+    "id": "4df5a7ce-4a35-476e-ab52-6bd0f95098dc.json",
+    "motivation": "commenting"
+}
