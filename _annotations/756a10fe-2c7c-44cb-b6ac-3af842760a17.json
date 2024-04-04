@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-18"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "These are probably documentation papers.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Lauren Milligan",
+                "name": "Lauren Milligan"
+            },
+            "created": "2024-04-04T18:25:21.666Z",
+            "modified": "2024-04-04T18:25:32.839Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-18",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1877.7086868286133\" cy=\"1876.3406372070312\" rx=\"2126.5193405151367\" ry=\"1590.4220581054688\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "756a10fe-2c7c-44cb-b6ac-3af842760a17.json",
+    "motivation": "commenting"
+}
