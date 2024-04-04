@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pain of the past",
+            "purpose": "commenting",
+            "creator": {
+                "id": "David",
+                "name": "David"
+            },
+            "created": "2024-04-04T18:30:27.628Z",
+            "modified": "2024-04-04T18:30:30.614Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3631.830810546875,1551.001953125,999.169189453125,211.152099609375"
+        }
+    },
+    "id": "ccee20d8-17e1-4c32-a4cd-c38478de0fa8.json",
+    "motivation": "commenting"
+}
