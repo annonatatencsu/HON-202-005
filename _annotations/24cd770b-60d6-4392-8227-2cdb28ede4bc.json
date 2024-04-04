@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Send these, the homeless, tempest-tost to me, I lift my lamp beside the golden door.",
+            "purpose": "describing",
+            "creator": {
+                "id": "cailey",
+                "name": "cailey"
+            },
+            "created": "2024-04-04T18:11:59.518Z",
+            "modified": "2024-04-04T18:13:01.751Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2060.4647827148438\" cy=\"994.2258453369141\" rx=\"1630.1719360351562\" ry=\"622.5108489990234\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "24cd770b-60d6-4392-8227-2cdb28ede4bc.json",
+    "motivation": "commenting"
+}
