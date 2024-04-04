@@ -4,26 +4,54 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "purpose": "geotagging",
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16,
-                    48
-                ]
-            },
+            "created": "2024-04-04T18:04:38.406Z",
             "creator": {
                 "id": "Caroline Dasch",
                 "name": "Caroline Dasch"
             },
-            "created": "2024-04-04T18:04:38.406Z"
+            "geometry": {
+                "coordinates": [
+                    16,
+                    48
+                ],
+                "type": "Point"
+            },
+            "purpose": "geotagging",
+            "type": "Feature"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Geolocation",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Caroline Dasch",
+                "name": "Caroline Dasch"
+            },
+            "created": "2024-04-04T18:05:25.733Z",
+            "modified": "2024-04-04T18:05:29.034Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "There are worldwide immigration stories beyond the USA. If we were only to assume that the port city they are pulling into is NYC, then we ostracize other immigration stories. Some examples that come to mind are Chinese immigration to Tawain, the Soviet Union to Western  Europe, and other war-torn countries in Africa and the Middle East, most recently immigrating to Turkey, Germany, and the UK. America isn't the only country welcoming immigrants and giving people a new home to live and thrive in.  ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Caroline Dasch",
+                "name": "Caroline Dasch"
+            },
+            "created": "2024-04-04T18:05:34.428Z",
+            "modified": "2024-04-04T18:09:27.791Z"
         }
     ],
+    "id": "266d2d8b-05ae-4c7a-97d0-7853d7597a86.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1631.88525390625,588.0447387695312,2547.9404296875,1095.4519653320312"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -31,13 +59,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1631.88525390625,588.0447387695312,2547.9404296875,1095.4519653320312"
         }
     },
-    "id": "266d2d8b-05ae-4c7a-97d0-7853d7597a86.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
