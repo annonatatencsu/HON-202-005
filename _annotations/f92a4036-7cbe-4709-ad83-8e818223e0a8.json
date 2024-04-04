@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I wonder how they're doing right now...",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Setayesh N.",
+                "name": "Setayesh N."
+            },
+            "created": "2024-04-04T18:18:33.586Z",
+            "modified": "2024-04-04T18:18:40.706Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=92.61946868896484,2617.43701171875,548.1127090454102,162.844970703125"
+        }
+    },
+    "id": "f92a4036-7cbe-4709-ad83-8e818223e0a8.json",
+    "motivation": "commenting"
+}
