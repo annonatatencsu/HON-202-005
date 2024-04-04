@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Representative of the actual immigration process, medical checkups, literacy tests, and official identification. Also can resemble the process of going into jail.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Kayla S",
+                "name": "Kayla S"
+            },
+            "created": "2024-04-04T18:05:21.463Z",
+            "modified": "2024-04-04T18:10:14.444Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=22.07345962524414,4718.6845703125,1334.0234642028809,652.189453125"
+        }
+    },
+    "id": "7d1342b4-0466-4d27-89eb-427087ff5d03.json",
+    "motivation": "commenting"
+}
