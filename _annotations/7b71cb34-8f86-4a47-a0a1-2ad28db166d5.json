@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-34"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is very similar to the boat scene from earlier",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Setayesh N.",
+                "name": "Setayesh N."
+            },
+            "created": "2024-04-04T18:26:49.401Z",
+            "modified": "2024-04-04T18:26:57.998Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-34",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=146.9751739501953,3161.697021484375,1418.2583465576172,352.60546875"
+        }
+    },
+    "id": "7b71cb34-8f86-4a47-a0a1-2ad28db166d5.json",
+    "motivation": "commenting"
+}
