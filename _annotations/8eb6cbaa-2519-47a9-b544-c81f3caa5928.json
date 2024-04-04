@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "AAH!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Setayesh N.",
+                "name": "Setayesh N."
+            },
+            "created": "2024-04-04T18:11:21.420Z",
+            "modified": "2024-04-04T18:11:25.507Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=527.9769897460938,137.7379150390625,505.85552978515625,180.38235473632812"
+        }
+    },
+    "id": "8eb6cbaa-2519-47a9-b544-c81f3caa5928.json",
+    "motivation": "commenting"
+}
