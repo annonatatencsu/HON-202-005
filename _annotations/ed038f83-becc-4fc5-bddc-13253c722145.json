@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "These 9 panels portray the isolating experience of immigrating to a new, foreign country. I also believe that in a way, it showcases the sense of community and unity among them. They're immigrating and leaving their home alone but there also doing it together. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Janiya",
+                "name": "Janiya"
+            },
+            "created": "2024-04-04T18:15:09.835Z",
+            "modified": "2024-04-04T18:18:34.042Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=0,5810.414306640625,1682.671630859375,394.724365234375"
+        }
+    },
+    "id": "ed038f83-becc-4fc5-bddc-13253c722145.json",
+    "motivation": "commenting"
+}
