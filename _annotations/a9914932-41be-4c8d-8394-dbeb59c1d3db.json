@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Mawawaowowow",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Lauren Milligan",
+                "name": "Lauren Milligan"
+            },
+            "created": "2024-04-04T18:24:48.359Z",
+            "modified": "2024-04-04T18:24:53.277Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"3291.7767333984375\" cy=\"4902.10400390625\" rx=\"656.3734130859375\" ry=\"632.72021484375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a9914932-41be-4c8d-8394-dbeb59c1d3db.json",
+    "motivation": "commenting"
+}
