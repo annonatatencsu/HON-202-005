@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cool detail",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Kayla S",
+                "name": "Kayla S"
+            },
+            "created": "2024-04-04T18:26:43.946Z",
+            "modified": "2024-04-04T18:26:46.610Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2967.49609375\" cy=\"5632.06201171875\" rx=\"326.92724609375\" ry=\"263.7705078125\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "55ff20c2-15ee-4941-9795-b15f139b7665.json",
+    "motivation": "commenting"
+}
