@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The fates of thousands of men and women were reduced to mere tags that decided whether they were healthy enough to continue their immigration or if they would be sent home due to a \"weakness\" found by the officers.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Asmita",
+                "name": "Asmita"
+            },
+            "created": "2024-04-04T18:24:51.441Z",
+            "modified": "2024-04-04T18:26:55.446Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=63.84348678588867,3170.9521484375,1402.5365180969238,231.723388671875"
+        }
+    },
+    "id": "e52a6972-0fdf-4b39-b97b-05fa7c5de2ee.json",
+    "motivation": "commenting"
+}
