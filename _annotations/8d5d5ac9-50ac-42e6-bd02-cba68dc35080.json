@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-29"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "In contrast to what can be called the more conventional origami birds the man carries around, these are drawn more fantastically to perhaps symbolize the odd things, both about the new people in the town, but also from smaller aspects, such as time zone changes, animals, and housing, as shown in previous frames. As well as that, it helps with awareness of his culture. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Eliza DM.",
+                "name": "Eliza DM."
+            },
+            "created": "2024-04-04T18:27:06.874Z",
+            "modified": "2024-04-04T18:30:11.311Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-29",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=105.90058135986328,3213.795166015625,4498.099906921387,234.613037109375"
+        }
+    },
+    "id": "8d5d5ac9-50ac-42e6-bd02-cba68dc35080.json",
+    "motivation": "commenting"
+}
