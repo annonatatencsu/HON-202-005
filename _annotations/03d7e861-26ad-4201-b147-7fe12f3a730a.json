@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "40.6892\u00b0 N, 74.0445\u00b0 W",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Jessica",
+                "name": "Jessica"
+            },
+            "created": "2024-04-04T18:03:39.026Z",
+            "modified": "2024-04-04T18:03:41.075Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=263.42706298828125,3663.234130859375,1319.0763549804688,403.79833984375"
+        }
+    },
+    "id": "03d7e861-26ad-4201-b147-7fe12f3a730a.json",
+    "motivation": "commenting"
+}
