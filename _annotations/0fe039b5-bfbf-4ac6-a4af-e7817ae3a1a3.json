@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-6"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "there are around 60 of these alternating sky images, telling us that they were on the ship traveling for around 2 months. In these two months, nothing notable happened, it was just cloud after cloud.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Aseel",
+                "name": "Aseel"
+            },
+            "created": "2024-04-04T18:13:31.596Z",
+            "modified": "2024-04-04T18:16:14.525Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-6",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=0,1051.75048828125,2291.226318359375,813.7630615234375"
+        }
+    },
+    "id": "0fe039b5-bfbf-4ac6-a4af-e7817ae3a1a3.json",
+    "motivation": "commenting"
+}
