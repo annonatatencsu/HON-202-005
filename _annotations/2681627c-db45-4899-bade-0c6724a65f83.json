@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Your huddled masses yearning to breathe free",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Brogan Kealy",
+                "name": "Brogan Kealy"
+            },
+            "created": "2024-04-04T18:20:45.699Z",
+            "modified": "2024-04-04T18:21:00.440Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=43.66616439819336,3801.236572265625,1429.9361305236816,177.50634765625"
+        }
+    },
+    "id": "2681627c-db45-4899-bade-0c6724a65f83.json",
+    "motivation": "commenting"
+}
