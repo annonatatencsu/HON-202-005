@@ -4,20 +4,21 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Representative of the actual immigration process, medical checkups, literacy tests, and official identification. Also can resemble the process of going into jail.",
-            "purpose": "commenting",
+            "created": "2024-04-04T18:05:21.463Z",
             "creator": {
                 "id": "Kayla S",
                 "name": "Kayla S"
             },
-            "created": "2024-04-04T18:05:21.463Z",
-            "modified": "2024-04-04T18:10:14.444Z"
+            "modified": "2024-04-04T18:10:14.444Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Representative of the actual immigration process, medical checkups, literacy tests, and official identification. Also can resemble the process of going into jail."
         }
     ],
+    "id": "7d1342b4-0466-4d27-89eb-427087ff5d03.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -30,9 +31,8 @@ order: 1
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=22.07345962524414,4718.6845703125,1334.0234642028809,652.189453125"
+            "value": "xywh=44.30722427368164,5185.5927734375,1334.0234642028809,652.189453125"
         }
     },
-    "id": "7d1342b4-0466-4d27-89eb-427087ff5d03.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
