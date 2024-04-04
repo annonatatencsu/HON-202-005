@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "WHAT ARE YOU??",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Jymon",
+                "name": "Jymon"
+            },
+            "created": "2024-04-04T18:18:00.364Z",
+            "modified": "2024-04-04T18:18:04.948Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"515.7246551513672\" cy=\"4538.0645751953125\" rx=\"252.22755432128906\" ry=\"492.2508544921875\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "117d1ea6-6b2d-4faa-98d7-fa2cfcac033c.json",
+    "motivation": "commenting"
+}
