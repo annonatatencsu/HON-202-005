@@ -4,35 +4,34 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<HTML>\n<HEAD> <TITLE>https://giphy.com/clips/titanicmovie-titanic-movie-25-T6BZtVwr07VV1kQ0Cx</TITLE> </HEAD>\n<BODY>\n  <IMG SRC=\"image1.gif\">\n</BODY>\n</HTML>",
-            "purpose": "commenting",
+            "created": "2024-04-04T18:26:13.670Z",
             "creator": {
                 "id": "Taylor",
                 "name": "Taylor"
             },
-            "created": "2024-04-04T18:26:13.670Z",
-            "modified": "2024-04-04T18:26:28.385Z"
+            "modified": "2024-04-04T18:26:28.385Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<HTML>\n<HEAD> <TITLE>https://giphy.com/clips/titanicmovie-titanic-movie-25-T6BZtVwr07VV1kQ0Cx</TITLE> </HEAD>\n<BODY>\n  <IMG SRC=\"image1.gif\">\n</BODY>\n</HTML>"
         }
     ],
+    "id": "3ddedf6a-2e05-4de7-ab52-30fe2f381312.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "value": "<svg><polygon points=\"2168.241455078125,2235.21630859375 2933.408935546875,2235.21630859375 3698.576416015625,2235.21630859375 3698.576416015625,2842.712890625 3698.576416015625,3450.20947265625 2933.408935546875,3450.20947265625 2168.241455078125,3450.20947265625 2168.241455078125,2842.712890625\"></polygon></svg>",
+            "type": "SvgSelector"
+        },
         "source": {
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13",
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-13",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2168.241455078125,2235.21630859375,1530.3349609375,1214.9931640625"
         }
     },
-    "id": "3ddedf6a-2e05-4de7-ab52-30fe2f381312.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
