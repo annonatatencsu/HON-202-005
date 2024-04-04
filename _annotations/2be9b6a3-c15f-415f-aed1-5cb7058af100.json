@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Origami is used a lot in the book, used for letters and fun.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Kayla S",
+                "name": "Kayla S"
+            },
+            "created": "2024-04-04T18:15:04.374Z",
+            "modified": "2024-04-04T18:16:22.588Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=115.19525146484375,5170.5166015625,1343.8399047851562,1216.9208984375"
+        }
+    },
+    "id": "2be9b6a3-c15f-415f-aed1-5cb7058af100.json",
+    "motivation": "commenting"
+}
