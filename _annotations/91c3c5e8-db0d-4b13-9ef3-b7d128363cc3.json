@@ -1,0 +1,49 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Unguarded Gates\" addition",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Caroline Dasch",
+                "name": "Caroline Dasch"
+            },
+            "created": "2024-04-04T18:12:09.287Z",
+            "modified": "2024-04-04T18:12:28.515Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Add \"Voices that once the Tower of Babel knew!\" This quote isn't necessarily an alarming statement. I find it exciting and enduring. It points to the diversity of languages and how the struggle of these immigrants is similar to the initial fall of the tower of Babel. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Caroline Dasch",
+                "name": "Caroline Dasch"
+            },
+            "created": "2024-04-04T18:12:33.718Z",
+            "modified": "2024-04-04T18:14:48.338Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-28",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2586.315185546875,1297.036865234375,1390.2412109375,913.3564453125"
+        }
+    },
+    "id": "91c3c5e8-db0d-4b13-9ef3-b7d128363cc3.json",
+    "motivation": "commenting"
+}
