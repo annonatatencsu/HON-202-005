@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Your huddling masses yearning to breathe free.\" - Lazarus",
-            "purpose": "commenting",
+            "created": "2024-04-04T18:04:49.426Z",
             "creator": {
                 "id": "Renuka Mahadevan",
                 "name": "Renuka Mahadevan"
             },
-            "created": "2024-04-04T18:04:49.426Z",
-            "modified": "2024-04-04T18:05:12.339Z"
+            "modified": "2024-04-04T18:05:12.339Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Your huddling masses yearning to breathe free.\" - Lazarus"
         }
     ],
+    "id": "9ea2c480-8bf8-48a6-b03e-e5b494b48266.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=249.60093688964844,4517.89892578125,3923.8678131103516,1750.27685546875"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=249.60093688964844,4517.89892578125,3923.8678131103516,1750.27685546875"
         }
     },
-    "id": "9ea2c480-8bf8-48a6-b03e-e5b494b48266.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
