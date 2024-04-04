@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-23"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is the same box that the wife and daughter came in which is a good connection. I wonder why they use the box though.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "kgperry2",
+                "name": "kgperry2"
+            },
+            "created": "2024-04-04T18:23:46.877Z",
+            "modified": "2024-04-04T18:24:13.164Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-23",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1891.3206787109375,3532.664794921875,1466.3392333984375,1337.712158203125"
+        }
+    },
+    "id": "c2225c9c-f625-4e42-808e-d90601734e71.json",
+    "motivation": "commenting"
+}
