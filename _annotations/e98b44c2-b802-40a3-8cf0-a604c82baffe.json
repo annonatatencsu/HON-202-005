@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Movement lines may help to make the motions more believable even though they add more of a comics feel.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "kgperry2",
+                "name": "kgperry2"
+            },
+            "created": "2024-04-04T18:19:25.106Z",
+            "modified": "2024-04-04T18:19:55.331Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><path d=\"M426.27587890625 2348.039794921875 L400.65838623046875 2348.039794921875 L357.9618835449219 2348.039794921875 L332.34375 2339.50048828125 L323.8039245605469 2339.50048828125 L315.2654113769531 2339.50048828125 L306.7255859375 2339.50048828125 L298.1864318847656 2330.961181640625 L281.1074523925781 2330.961181640625 L272.56890869140625 2330.961181640625 L272.56890869140625 2322.421875 L264.02911376953125 2322.421875 L255.4899444580078 2322.421875 L246.95077514648438 2322.421875 L238.41094970703125 2322.421875 L238.41094970703125 2313.8828125 L238.41094970703125 2313.8828125\"></path></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e98b44c2-b802-40a3-8cf0-a604c82baffe.json",
+    "motivation": "commenting"
+}
