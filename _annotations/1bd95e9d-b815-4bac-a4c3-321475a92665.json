@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "WE'VE REACHED THE SHORE!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Nina Somerville",
+                "name": "Nina Somerville"
+            },
+            "created": "2024-04-04T18:16:38.617Z",
+            "modified": "2024-04-04T18:16:46.840Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-9",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"2011.3181762695312\" cy=\"5442.5869140625\" rx=\"182.63690185546875\" ry=\"120.96044921875\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1bd95e9d-b815-4bac-a4c3-321475a92665.json",
+    "motivation": "commenting"
+}
