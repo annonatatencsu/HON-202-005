@@ -3,20 +3,22 @@ canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/can
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Give me your tired, your poor, your huddled masses yearning to breathe free\" \n- The New Colossus, Emma Lazarus",
-            "purpose": "commenting",
+            "created": "2024-11-14T19:10:33.163Z",
             "creator": {
                 "id": "Brady Selcz",
                 "name": "Brady Selcz"
             },
-            "created": "2024-11-14T19:10:33.163Z",
-            "modified": "2024-11-14T19:11:18.905Z"
+            "modified": "2024-11-14T19:11:18.905Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Give me your tired, your poor, your huddled masses yearning to breathe free\" \n- The New Colossus, Emma Lazarus"
         }
     ],
+    "id": "7a28c913-9edf-41e1-afd2-a34f28a9c74d.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -28,10 +30,8 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><ellipse cx=\"5871.1591796875\" cy=\"4011.8233642578125\" rx=\"1070.4091796875\" ry=\"597.1292724609375\"></ellipse></svg>"
+            "value": "<svg><ellipse cx=\"4035.539794921875\" cy=\"1194.25830078125\" rx=\"411.355712890625\" ry=\"398.0860595703125\"></ellipse></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7a28c913-9edf-41e1-afd2-a34f28a9c74d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
