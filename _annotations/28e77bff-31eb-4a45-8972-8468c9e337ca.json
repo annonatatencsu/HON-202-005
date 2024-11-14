@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5"
+order: 6
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Not a single on of these panels had a clear, bright sky. They all take place in the dark, so perhaps the brutality of the weather only took place at night. But that seems to be the main point of these panels, the harsh reality of sailing in a large ocean at night.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Abby",
+                "name": "Abby"
+            },
+            "created": "2024-11-14T19:17:55.584Z",
+            "modified": "2024-11-14T19:19:24.616Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3264.954345703125,785.6590576171875,675.990478515625,503.39697265625"
+        }
+    },
+    "id": "28e77bff-31eb-4a45-8972-8468c9e337ca.json",
+    "motivation": "commenting"
+}
