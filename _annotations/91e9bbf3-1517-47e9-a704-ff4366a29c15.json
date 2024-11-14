@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Possible caption/translation: \"I was getting frustrated. Despite my clear motions and my clear descriptions or my health and my history, the immigration officer was not understanding what I was describing.\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Morgan S",
+                "name": "Morgan S"
+            },
+            "created": "2024-11-14T19:09:09.495Z",
+            "modified": "2024-11-14T19:11:03.047Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=141.03134155273438,4902.2001953125,4450.413482666016,357.8720703125"
+        }
+    },
+    "id": "91e9bbf3-1517-47e9-a704-ff4366a29c15.json",
+    "motivation": "commenting"
+}
