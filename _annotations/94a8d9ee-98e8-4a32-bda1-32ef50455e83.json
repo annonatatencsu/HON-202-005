@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Who knows if this gesture means the same thing as it does for us? Nothing tells us exactly what he's communicating to the interviewer. He may even just be asking for some water.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Noah P.",
+                "name": "Noah P."
+            },
+            "created": "2024-11-14T19:07:18.987Z",
+            "modified": "2024-11-14T19:08:05.950Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1772.6484375,338.5244140625,821.409912109375,849.4927978515625"
+        }
+    },
+    "id": "94a8d9ee-98e8-4a32-bda1-32ef50455e83.json",
+    "motivation": "commenting"
+}
