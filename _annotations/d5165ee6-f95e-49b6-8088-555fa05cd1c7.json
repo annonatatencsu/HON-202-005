@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I imagine this being like the feeling you get standing in airport customs waiting your turn at the desk not knowing what questions are coming, or speaking the language they're asked in",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Carson",
+                "name": "Carson"
+            },
+            "created": "2024-11-14T19:16:01.440Z",
+            "modified": "2024-11-14T19:18:01.366Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-14",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2438.10205078125,583.4970092773438 1111.2545166015625,4671.42138671875 4072.064208984375,4714.3193359375 4064.259033203125,4683.0986328125 3424.235595703125,3371.830810546875\"></polygon></svg>"
+        }
+    },
+    "id": "d5165ee6-f95e-49b6-8088-555fa05cd1c7.json",
+    "motivation": "commenting"
+}
