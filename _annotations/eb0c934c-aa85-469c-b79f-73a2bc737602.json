@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This scene was so interesting to me! I would love it if there were words here, they would represent the excitement felt by the people on the boat as they see the first signs they have arrived in the new land. Something possibly like \"The sweet whispers of freedom slip into the air as the shore grows closer.\"",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Ella",
+                "name": "Ella"
+            },
+            "created": "2024-11-14T19:13:09.105Z",
+            "modified": "2024-11-14T19:14:59.537Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=117.01071166992188,1573.573486328125,2598.467315673828,262.267578125"
+        }
+    },
+    "id": "eb0c934c-aa85-469c-b79f-73a2bc737602.json",
+    "motivation": "commenting"
+}
