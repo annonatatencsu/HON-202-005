@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The difference between the animals in both statues represents the two statues coming from different cultural backgrounds, greeting each other with kindness and respect. This is essentially the statue of liberty in arrival, but instead of a motherly figure beckoning her children, the people are greeted with a symbol of unity among migrants.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Ella",
+                "name": "Ella"
+            },
+            "created": "2024-11-14T19:15:37.997Z",
+            "modified": "2024-11-14T19:18:22.603Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=958.6533813476562,789.658935546875,2068.3453979492188,769.616943359375"
+        }
+    },
+    "id": "24489340-d911-4542-8ebf-ea087ea3e2c4.json",
+    "motivation": "commenting"
+}
