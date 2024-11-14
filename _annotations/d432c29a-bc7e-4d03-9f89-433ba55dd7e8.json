@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-35"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Tweet Tweet Squaw ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Mia",
+                "name": "Mia"
+            },
+            "created": "2024-11-14T19:15:06.127Z",
+            "modified": "2024-11-14T19:15:13.772Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-35",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1944.2452392578125,2650.342529296875,1437.5677490234375,783.55908203125"
+        }
+    },
+    "id": "d432c29a-bc7e-4d03-9f89-433ba55dd7e8.json",
+    "motivation": "commenting"
+}
