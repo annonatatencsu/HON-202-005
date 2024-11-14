@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "the clouds demonstrate the harshness of the voyage these people are making",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Abby",
+                "name": "Abby"
+            },
+            "created": "2024-11-14T19:10:59.821Z",
+            "modified": "2024-11-14T19:11:32.181Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1121.921630859375,692.1708984375,906.114013671875,237.31573486328125"
+        }
+    },
+    "id": "b6d8b5d3-4804-4f22-844c-2efc6998ba3f.json",
+    "motivation": "commenting"
+}
