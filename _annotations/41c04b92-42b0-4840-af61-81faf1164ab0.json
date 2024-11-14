@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I find the manner in which his suitcase is immediately shown as being a window into his old home, and a reminder of the draconic threat looming over his family. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Dylan ",
+                "name": "Dylan "
+            },
+            "created": "2024-11-14T19:19:46.584Z",
+            "modified": "2024-11-14T19:21:30.688Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-33",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=267.1349792480469,1925.9927978515625,3082.662628173828,2149.2200927734375"
+        }
+    },
+    "id": "41c04b92-42b0-4840-af61-81faf1164ab0.json",
+    "motivation": "commenting"
+}
