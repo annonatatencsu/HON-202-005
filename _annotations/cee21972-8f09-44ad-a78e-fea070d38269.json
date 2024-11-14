@@ -4,21 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
+            "created": "2024-11-14T19:08:50.957Z",
+            "creator": {
+                "id": "Mirabel ",
+                "name": "Mirabel "
+            },
+            "modified": "2024-11-14T19:12:57.978Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "I think visually these pages of small images of clouds are supposed to be the views from on the boat, showing the length of the journey, but I see a second meaning connecting the clouds to the dreams of the people of a new life in a new place, with the variety of shapes and colors represented. ",
+            "value": "I think visually these pages of small images of clouds are supposed to be the views from on the boat, showing the length of the journey, but I see a second meaning connecting the clouds to the dreams of the people of a new life in a new place, with the variety of shapes and colors represented. "
+        },
+        {
+            "type": "TextualBody",
+            "value": "My caption would be \"Each with a different dream\"",
             "purpose": "commenting",
             "creator": {
                 "id": "Mirabel ",
                 "name": "Mirabel "
             },
-            "created": "2024-11-14T19:08:50.957Z",
-            "modified": "2024-11-14T19:12:57.978Z"
+            "created": "2024-11-14T19:14:50.920Z",
+            "modified": "2024-11-14T19:16:04.869Z"
         }
     ],
+    "id": "cee21972-8f09-44ad-a78e-fea070d38269.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=0,156.53904724121094,1984.73095703125,2138.094009399414"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -26,13 +43,7 @@ order: 1
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=0,156.53904724121094,1984.73095703125,2138.094009399414"
         }
     },
-    "id": "cee21972-8f09-44ad-a78e-fea070d38269.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
