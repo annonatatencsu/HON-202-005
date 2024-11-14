@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This scene is very reminiscent of Ellis Island, especially with the crowds and the long waits at the immigration center. However, I find it curious that such a modern city would have such a old system for accepting immigrants into their world. I wonder why Tan decided to depict the immigration center in this way. Is he trying to make it more accessible for the audience so that the scene is easily recognizable?  ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Morgan S",
+                "name": "Morgan S"
+            },
+            "created": "2024-11-14T19:12:19.312Z",
+            "modified": "2024-11-14T19:15:33.980Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-15",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"1626.64013671875\" cy=\"4406.649169921875\" r=\"353.91510986229486\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "874fb30c-0c8b-4a4e-b866-c176e9dd3558.json",
+    "motivation": "commenting"
+}
