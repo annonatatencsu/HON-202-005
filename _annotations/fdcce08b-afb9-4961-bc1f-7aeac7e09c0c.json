@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "the variation in melancholy color emphasizes the passing of time, as each time of day makes the sky a different color",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Abby",
+                "name": "Abby"
+            },
+            "created": "2024-11-14T19:12:58.643Z",
+            "modified": "2024-11-14T19:13:42.399Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=776.7349243164062,3169.378662109375,1510.1911010742188,632.842529296875"
+        }
+    },
+    "id": "fdcce08b-afb9-4961-bc1f-7aeac7e09c0c.json",
+    "motivation": "commenting"
+}
