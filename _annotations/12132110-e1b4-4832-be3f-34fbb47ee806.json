@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-31"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Things as simple as plumbing function differently in other places around the world. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Ava",
+                "name": "Ava"
+            },
+            "created": "2024-11-14T19:18:39.327Z",
+            "modified": "2024-11-14T19:18:52.940Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-31",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=223.10865783691406,3363.666259765625,4420.891342163086,1786.097900390625"
+        }
+    },
+    "id": "12132110-e1b4-4832-be3f-34fbb47ee806.json",
+    "motivation": "commenting"
+}
