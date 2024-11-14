@@ -1,0 +1,40 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "accurate representation of immigrating ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "kris",
+                "name": "kris"
+            },
+            "created": "2024-11-14T19:16:39.688Z",
+            "modified": "2024-11-14T19:17:11.703Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"755.2025146484375,1072.4029541015625 755.2025146484375,1072.4029541015625 755.2025146484375,1072.4029541015625 755.2025146484375,1072.4029541015625\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "14d6bd7f-263d-4c95-bb70-5c3dfb3bbbb3.json",
+    "motivation": "commenting"
+}
