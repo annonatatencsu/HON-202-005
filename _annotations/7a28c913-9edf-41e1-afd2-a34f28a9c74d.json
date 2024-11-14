@@ -1,0 +1,37 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Give me your tired, your poor, your huddled masses yearning to breathe free\" \n- The New Colossus, Emma Lazarus",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Brady Selcz",
+                "name": "Brady Selcz"
+            },
+            "created": "2024-11-14T19:10:33.163Z",
+            "modified": "2024-11-14T19:11:18.905Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-8",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"5871.1591796875\" cy=\"4011.8233642578125\" rx=\"1070.4091796875\" ry=\"597.1292724609375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7a28c913-9edf-41e1-afd2-a34f28a9c74d.json",
+    "motivation": "commenting"
+}
