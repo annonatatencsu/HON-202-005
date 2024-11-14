@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-22"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "this monument seems to look like an angelic figure that represents peace in a post war era ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Noah G",
+                "name": "Noah G"
+            },
+            "created": "2024-11-14T19:17:30.651Z",
+            "modified": "2024-11-14T19:18:48.004Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-22",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1101.8414306640625,619.9517211914062,1614.9359130859375,769.1992797851562"
+        }
+    },
+    "id": "84056f59-5e8f-4dcd-bbbc-d31419bf0943.json",
+    "motivation": "commenting"
+}
