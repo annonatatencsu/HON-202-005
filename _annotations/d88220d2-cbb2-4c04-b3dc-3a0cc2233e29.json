@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "this is a funny face. could be made into a meme.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Hailey",
+                "name": "Hailey"
+            },
+            "created": "2024-11-14T19:17:25.234Z",
+            "modified": "2024-11-14T19:17:35.401Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-17",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1797.3995361328125,1900.0537109375,1400.5467529296875,1320.775634765625"
+        }
+    },
+    "id": "d88220d2-cbb2-4c04-b3dc-3a0cc2233e29.json",
+    "motivation": "commenting"
+}
