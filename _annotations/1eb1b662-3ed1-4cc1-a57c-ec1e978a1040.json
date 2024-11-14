@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Likely meant to depict this world's equivalent of the United States.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Austin",
+                "name": "Austin"
+            },
+            "created": "2024-11-14T19:04:19.730Z",
+            "modified": "2024-11-14T19:04:34.383Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-11",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3531.107666015625,730.641357421875,916.643798828125,250.5491943359375"
+        }
+    },
+    "id": "1eb1b662-3ed1-4cc1-a57c-ec1e978a1040.json",
+    "motivation": "commenting"
+}
