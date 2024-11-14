@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This scene was so interesting to me, if there was words I would love it to be something like \"Sweet whispers of freedom creep through the air as we approach the shore.\" Since the bird-like creatures represent entering the new land, I'd like to see them symbolize the excitement that must've been felt.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Ella",
+                "name": "Ella"
+            },
+            "created": "2024-11-14T19:09:22.835Z",
+            "modified": "2024-11-14T19:11:17.047Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=100.88201904296875,1524.93505859375,4523.117980957031,379.2794189453125"
+        }
+    },
+    "id": "1094ba19-51b7-464c-ab68-a8dc5933f88a.json",
+    "motivation": "commenting"
+}
