@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-34"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "I like this way of story-telling. I like the zooming out and showing that there are also others who are living through similar experiences",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Michael",
+                "name": "Michael"
+            },
+            "created": "2024-11-14T19:18:09.392Z",
+            "modified": "2024-11-14T19:18:38.867Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-34",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=26.586389541625977,3501.38623046875,4537.671422958374,2417.4150390625"
+        }
+    },
+    "id": "8718b72e-7037-48a2-a60e-896b57eabaf9.json",
+    "motivation": "commenting"
+}
