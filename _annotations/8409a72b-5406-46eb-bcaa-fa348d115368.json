@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "The colossi seem to be vaguely analogous to the Statue of Liberty. Introduced with this duo are animals, potentially symbolizing the willingness of whatever this city/nation is to synergize deeply with nature.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Noah P.",
+                "name": "Noah P."
+            },
+            "created": "2024-11-14T19:13:05.798Z",
+            "modified": "2024-11-14T19:14:01.977Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-12",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=171.50010681152344,707.7255249023438,1287.7962799072266,1585.5125122070312"
+        }
+    },
+    "id": "8409a72b-5406-46eb-bcaa-fa348d115368.json",
+    "motivation": "commenting"
+}
