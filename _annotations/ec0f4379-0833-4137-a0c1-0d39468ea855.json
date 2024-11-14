@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This entire sequence INSTANTLY reminded me of Ellis Island. Even thought I've never been there, the images I was instilled with during my education were so visceral and memorable. I wonder if you all thought of that as well?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Noah P.",
+                "name": "Noah P."
+            },
+            "created": "2024-11-14T19:11:23.800Z",
+            "modified": "2024-11-14T19:11:50.007Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=180.1987762451172,490.3168029785156,1283.9718780517578,1020.7576599121094"
+        }
+    },
+    "id": "ec0f4379-0833-4137-a0c1-0d39468ea855.json",
+    "motivation": "commenting"
+}
