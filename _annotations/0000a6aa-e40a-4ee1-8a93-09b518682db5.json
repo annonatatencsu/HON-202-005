@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-26"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Again, this scene here reminds me of New York, with a lot happening in the area. It is clearly a bustling city, causing a lot of uncertainty in our unnamed main character. Again, I wonder why Tan made this artistic choice. Is it so that we see some sort of familiarity with the setting, even though it is so different from what we know? I believe these stylistic choices allow us to understand what the character is going through.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Morgan S",
+                "name": "Morgan S"
+            },
+            "created": "2024-11-14T19:17:11.610Z",
+            "modified": "2024-11-14T19:21:53.010Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-26",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2657.858642578125,3479.978759765625,1969.141357421875,3063.810791015625"
+        }
+    },
+    "id": "0000a6aa-e40a-4ee1-8a93-09b518682db5.json",
+    "motivation": "commenting"
+}
