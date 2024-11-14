@@ -1,0 +1,40 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is a very good representation of how the process of getting into America on Ellis Island is. It is mildly dehumanizing and isolating.  ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "kris",
+                "name": "kris"
+            },
+            "created": "2024-11-14T19:18:47.099Z",
+            "modified": "2024-11-14T19:19:58.869Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"780.0328369140625,3357.3759765625 780.0328369140625,3357.3759765625 780.0328369140625,3357.3759765625 780.0328369140625,3357.3759765625\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "065b2b4d-8ada-4c8c-a3ff-84d2c074aed4.json",
+    "motivation": "commenting"
+}
