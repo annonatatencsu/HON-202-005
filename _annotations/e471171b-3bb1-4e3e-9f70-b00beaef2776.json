@@ -4,21 +4,38 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
+            "created": "2024-11-14T19:16:42.648Z",
+            "creator": {
+                "id": "Abby",
+                "name": "Abby"
+            },
+            "modified": "2024-11-14T19:16:46.176Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "this one looks like a teacup",
+            "value": "this one looks like a teacup"
+        },
+        {
+            "type": "TextualBody",
+            "value": "or perhaps hello kitty?",
             "purpose": "commenting",
             "creator": {
                 "id": "Abby",
                 "name": "Abby"
             },
-            "created": "2024-11-14T19:16:42.648Z",
-            "modified": "2024-11-14T19:16:46.176Z"
+            "created": "2024-11-14T19:17:01.018Z",
+            "modified": "2024-11-14T19:17:05.314Z"
         }
     ],
+    "id": "e471171b-3bb1-4e3e-9f70-b00beaef2776.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2143.098388671875,4582.7109375,819.8173828125,841.392578125"
+        },
         "source": {
             "partOf": {
                 "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
@@ -26,13 +43,7 @@ order: 5
             },
             "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-5",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2143.098388671875,4582.7109375,819.8173828125,841.392578125"
         }
     },
-    "id": "e471171b-3bb1-4e3e-9f70-b00beaef2776.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
