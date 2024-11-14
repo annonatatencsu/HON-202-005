@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "official name: Little Homie ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Noah G",
+                "name": "Noah G"
+            },
+            "created": "2024-11-14T19:08:24.793Z",
+            "modified": "2024-11-14T19:08:38.320Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-32",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3418.3701171875,4742.931640625,1099.2529296875,599.5927734375"
+        }
+    },
+    "id": "8e0eb939-fd1f-47ca-bea4-6d6e98a7b4af.json",
+    "motivation": "commenting"
+}
