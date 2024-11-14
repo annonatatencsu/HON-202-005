@@ -1,0 +1,38 @@
+---
+canvas: "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-22"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Massive highways, lots of pollution, crowded buildings...feelings like NY",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Ava",
+                "name": "Ava"
+            },
+            "created": "2024-11-14T19:20:44.812Z",
+            "modified": "2024-11-14T19:21:40.480Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annonatatencsu.github.io/HON-202-005/manifests/iiif/chapter2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dnoneill.github.io/thearrival/img/derivatives/iiif/chapter2/canvas/chapter2-22",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=305.4620361328125,297.8955383300781,4026.1033935546875,5596.825164794922"
+        }
+    },
+    "id": "640ba4ef-229c-4838-b7e4-08dcc97012cb.json",
+    "motivation": "commenting"
+}
